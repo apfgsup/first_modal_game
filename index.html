@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru" >
+<head>
+  <meta charset="UTF-8">
+  <title>First Game - modal</title>
+  <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+  <h1 class="title" id="title" style="color: dodgerblue">Поймай клоуна!</h1>
+  <button class="buttonStart" id="buttonStart">С Т А Р Т</button>
+  <div class="fixed-overlay fixed-overlay__modal" id="modalWindow">
+      <div class="modal">
+          <div class="modal_container">
+            <h2>ЛОВИ КЛОУНА</h2>
+            <div class="game-board">
+              <div class="cell"></div>
+              <div class="cell"></div>
+              <div class="cell"></div>
+              <div class="cell"></div>
+              <div class="cell"></div>
+              <div class="cell"></div>
+              <div class="cell"></div>
+              <div class="cell"></div>
+              <div class="cell"></div>
+            </div>
+            <p class="score" id="score">Количество очков: 0</p>
+            <p class="rounds" id="rounds">Осталось раундов: 3</p>
+          </div>
+      </div>
+  </div>
+  <p class="message" id="message" style = "color: brown">Игру начинай - СТАРТ нажимай</p>
+</div>
+<script  src="src/script.js"></script>
+</body>
+</html>
