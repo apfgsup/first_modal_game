@@ -1,7 +1,7 @@
 # First Game - modal
 
-A Pen created on CodePen.
+APP created on WebStorm.
 
-Original URL: [https://codepen.io/fpcoder/pen/qEBPbPa](https://codepen.io/fpcoder/pen/qEBPbPa).
+Original URL: [https://codepen.io/pen?template=qEBPbPa].
 
-В этой игре нужно нажимать на квадратик с Эмодзи.
+В этой игре нужно нажимать на квадратик с Клоуном.
